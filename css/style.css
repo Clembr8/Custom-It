@@ -1,0 +1,38 @@
+
+
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Raleway:300|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("component/container.css");
+@import url("component/banner.css");
+@import url("component/button.css");
+@import url("component/avatar.css");
+@import url("component/card.css");
+
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Raleway', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1,h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
